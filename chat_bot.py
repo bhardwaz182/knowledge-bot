@@ -24,7 +24,7 @@ KNOWLEDGE_FILE = "cleaned_content_v2.txt"
 # --- Core RAG functions ---
 
 def split_documents(docs, chunk_size=500, chunk_overlap=100):
-    splitter = RecursiveCharacterTextSplitter(
+    splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
         chunk_size=chunk_size,
         chunk_overlap=chunk_overlap,
     )

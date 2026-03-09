@@ -9,3 +9,4 @@ python-dotenv==1.0.1
 sentence-transformers==5.2.3
 huggingface-hub==0.26.2
 scikit-learn==1.5.2
+loadenv==0.1.1

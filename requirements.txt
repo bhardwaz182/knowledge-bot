@@ -1,0 +1,12 @@
+langchain==0.3.8
+langchain-community==0.3.8
+langchain-anthropic==0.3.0
+langchain-core==0.3.21
+langchain-text-splitters==0.3.2
+anthropic==0.84.0
+streamlit==1.40.2
+python-dotenv==1.0.1
+sentence-transformers==5.2.3
+huggingface-hub==0.26.2
+tiktoken==0.8.0
+scikit-learn==1.5.2
